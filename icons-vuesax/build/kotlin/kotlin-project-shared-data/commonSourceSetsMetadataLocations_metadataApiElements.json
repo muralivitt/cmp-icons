@@ -1,8 +1,0 @@
-{
-  "locationBySourceSetName": {
-    "appleMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-vuesax/build/classes/kotlin/metadata/appleMain/klib/icons-vuesax_appleMain",
-    "commonMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-vuesax/build/classes/kotlin/metadata/commonMain",
-    "iosMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-vuesax/build/classes/kotlin/metadata/iosMain/klib/icons-vuesax_iosMain",
-    "nativeMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-vuesax/build/classes/kotlin/metadata/nativeMain/klib/icons-vuesax_nativeMain"
-  }
-}

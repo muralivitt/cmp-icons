@@ -1,8 +1,0 @@
-{
-  "locationBySourceSetName": {
-    "appleMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/classes/kotlin/metadata/appleMain/klib/icons-tabler_appleMain",
-    "commonMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/classes/kotlin/metadata/commonMain",
-    "iosMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/classes/kotlin/metadata/iosMain/klib/icons-tabler_iosMain",
-    "nativeMain": "/Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/classes/kotlin/metadata/nativeMain/klib/icons-tabler_nativeMain"
-  }
-}

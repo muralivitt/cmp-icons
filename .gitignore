@@ -4,9 +4,12 @@
 !gradle/wrapper/gradle-wrapper.jar
 .idea
 .DS_Store
-/build
+/cmp-icons/build
+/icons-tabler/build
+/icons-vuesax/build
 /captures
 .externalNativeBuild
 .cxx
 local.properties
 
+.kotlin/
