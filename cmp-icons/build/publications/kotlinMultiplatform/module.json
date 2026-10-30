@@ -1,0 +1,391 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.muralivitt",
+    "module": "cmp-icons",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.6.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.muralivitt",
+          "module": "cmp-icons-vuesax",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "io.github.muralivitt",
+          "module": "cmp-icons-tabler",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cmp-icons-metadata.jar",
+          "url": "cmp-icons-1.0.0.jar",
+          "size": 869,
+          "sha512": "6a5b7277937b192bc12803dc82c6fce78224369249521812324910654c01e3846f5e83340254ff4569b6e81d85574581104bbfbb496bb790c3b1481bb6b1a6a4",
+          "sha256": "30bc0fc1d23e327dd8124b62544746e77228090eadc7195a3ffe74d9c071d04d",
+          "sha1": "08a2d0efb6335ca91c5bb458f2f47e127d240d6d",
+          "md5": "09d8953084a531265f7a4e82f34e02df"
+        }
+      ]
+    },
+    {
+      "name": "metadataSourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "cmp-icons-kotlin-sources.jar",
+          "url": "cmp-icons-1.0.0-sources.jar",
+          "size": 887,
+          "sha512": "f6f5810557e596d9c35c7c370744542ab5ef997a058c6192947a98e5d498891ba708d8307bbfd9bdd2a2aa0e35bc337d84806ba1a2a5b1a1308bd0fb133d13fa",
+          "sha256": "023b8825c4257d133074bb1f6b418415faf1e21df52a64d30df49b018f20075b",
+          "sha1": "7211ebcfafde43b542999b0f18530589451fd2c9",
+          "md5": "9f374f294755f3404cba6e934f75ba5c"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-android/1.0.0/cmp-icons-android-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-android/1.0.0/cmp-icons-android-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-android/1.0.0/cmp-icons-android-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-android",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosarm64/1.0.0/cmp-icons-iosarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosarm64/1.0.0/cmp-icons-iosarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosarm64/1.0.0/cmp-icons-iosarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosarm64/1.0.0/cmp-icons-iosarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iossimulatorarm64/1.0.0/cmp-icons-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iossimulatorarm64/1.0.0/cmp-icons-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iossimulatorarm64/1.0.0/cmp-icons-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iossimulatorarm64/1.0.0/cmp-icons-iossimulatorarm64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iossimulatorarm64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosx64/1.0.0/cmp-icons-iosx64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosx64/1.0.0/cmp-icons-iosx64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64ResourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.libraryelements": "kotlin-multiplatformresources",
+        "org.gradle.usage": "kotlin-multiplatformresources",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosx64/1.0.0/cmp-icons-iosx64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-iosx64/1.0.0/cmp-icons-iosx64-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-iosx64",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-jvm/1.0.0/cmp-icons-jvm-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-jvm/1.0.0/cmp-icons-jvm-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-jvm",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../cmp-icons-jvm/1.0.0/cmp-icons-jvm-1.0.0.module",
+        "group": "io.github.muralivitt",
+        "module": "cmp-icons-jvm",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

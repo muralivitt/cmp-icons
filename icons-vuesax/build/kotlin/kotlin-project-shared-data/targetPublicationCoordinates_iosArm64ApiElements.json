@@ -1,0 +1,12 @@
+{
+  "rootPublicationCoordinates": {
+    "group": "io.github.muralivitt",
+    "artifactId": "cmp-icons-vuesax",
+    "version": "1.0.0"
+  },
+  "targetPublicationCoordinates": {
+    "group": "io.github.muralivitt",
+    "artifactId": "cmp-icons-vuesax-iosarm64",
+    "version": "1.0.0"
+  }
+}

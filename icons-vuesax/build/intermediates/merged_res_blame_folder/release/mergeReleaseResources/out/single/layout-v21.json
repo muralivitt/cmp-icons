@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-release-40:/layout-v21/notification_template_icon_group.xml",
+        "source": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-core-1.13.1-35:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-release-40:/layout-v21/notification_action.xml",
+        "source": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-core-1.13.1-35:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-release-40:/layout-v21/notification_action_tombstone.xml",
+        "source": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-core-1.13.1-35:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-release-40:/layout-v21/notification_template_custom_big.xml",
+        "source": "com.muralivitt.cmp.icons.vuesax.icons-vuesax-core-1.13.1-35:/layout-v21/notification_template_custom_big.xml"
+    }
+]

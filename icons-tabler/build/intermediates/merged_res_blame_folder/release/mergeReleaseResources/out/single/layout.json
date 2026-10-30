@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.muralivitt.cmp.icons.tabler.icons-tabler-release-40:/layout/ime_base_split_test_activity.xml",
+        "source": "com.muralivitt.cmp.icons.tabler.icons-tabler-core-1.13.1-35:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.tabler.icons-tabler-release-40:/layout/ime_secondary_split_test_activity.xml",
+        "source": "com.muralivitt.cmp.icons.tabler.icons-tabler-core-1.13.1-35:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.tabler.icons-tabler-release-40:/layout/notification_template_part_time.xml",
+        "source": "com.muralivitt.cmp.icons.tabler.icons-tabler-core-1.13.1-35:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.tabler.icons-tabler-release-40:/layout/custom_dialog.xml",
+        "source": "com.muralivitt.cmp.icons.tabler.icons-tabler-core-1.13.1-35:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.tabler.icons-tabler-release-40:/layout/notification_template_part_chronometer.xml",
+        "source": "com.muralivitt.cmp.icons.tabler.icons-tabler-core-1.13.1-35:/layout/notification_template_part_chronometer.xml"
+    }
+]

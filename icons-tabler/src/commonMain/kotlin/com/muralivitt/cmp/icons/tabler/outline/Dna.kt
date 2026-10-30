@@ -1,0 +1,58 @@
+package com.muralivitt.cmp.icons.tabler.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val TablerIconOutline.Dna: ImageVector
+    get() {
+        if (_Dna != null) {
+            return _Dna!!
+        }
+        _Dna = ImageVector.Builder(
+            name = "Dna",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(14.828f, 14.828f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = true, isPositiveArc = false, -5.656f, -5.656f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.656f, 5.656f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(9.172f, 20.485f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = true, isPositiveArc = false, -5.657f, -5.657f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(14.828f, 3.515f)
+                arcToRelative(4f, 4f, 0f, isMoreThanHalf = false, isPositiveArc = false, 5.657f, 5.657f)
+            }
+        }.build()
+
+        return _Dna!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _Dna: ImageVector? = null

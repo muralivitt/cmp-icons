@@ -1,0 +1,61 @@
+package com.muralivitt.cmp.icons.tabler.outline
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+
+val TablerIconOutline.BluetoothX: ImageVector
+    get() {
+        if (_BluetoothX != null) {
+            return _BluetoothX!!
+        }
+        _BluetoothX = ImageVector.Builder(
+            name = "BluetoothX",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(7f, 8f)
+                lineToRelative(10f, 8f)
+                lineToRelative(-5f, 4f)
+                verticalLineToRelative(-16f)
+                lineToRelative(1f, 0.802f)
+                moveToRelative(0f, 6.396f)
+                lineToRelative(-6f, 4.802f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(16f, 6f)
+                lineToRelative(4f, 4f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF000000)),
+                strokeLineWidth = 2f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(20f, 6f)
+                lineToRelative(-4f, 4f)
+            }
+        }.build()
+
+        return _BluetoothX!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _BluetoothX: ImageVector? = null

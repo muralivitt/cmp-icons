@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.muralivitt.cmp.icons.cmp-icons-release-40:/drawable/notification_tile_bg.xml",
+        "source": "com.muralivitt.cmp.icons.cmp-icons-core-1.13.1-35:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.cmp-icons-release-40:/drawable/notification_bg.xml",
+        "source": "com.muralivitt.cmp.icons.cmp-icons-core-1.13.1-35:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.cmp-icons-release-40:/drawable/notification_bg_low.xml",
+        "source": "com.muralivitt.cmp.icons.cmp-icons-core-1.13.1-35:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.muralivitt.cmp.icons.cmp-icons-release-40:/drawable/notification_icon_background.xml",
+        "source": "com.muralivitt.cmp.icons.cmp-icons-core-1.13.1-35:/drawable/notification_icon_background.xml"
+    }
+]

@@ -1,0 +1,127 @@
+package com.muralivitt.cmp.icons.vuesax.twotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.muralivitt.cmp.icons.vuesax.twotone.VuesaxIconsTwotone
+
+import kotlin.Suppress
+
+val VuesaxIconsTwotone.FormatCircle: ImageVector
+    get() {
+        if (_FormatCircle != null) {
+            return _FormatCircle!!
+        }
+        _FormatCircle = ImageVector.Builder(
+            name = "FormatCircle",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(21.501f, 5.35f)
+                curveTo(21.501f, 6.26f, 21.071f, 7.07f, 20.411f, 7.59f)
+                curveTo(19.931f, 7.97f, 19.321f, 8.2f, 18.651f, 8.2f)
+                curveTo(17.071f, 8.2f, 15.801f, 6.93f, 15.801f, 5.35f)
+                curveTo(15.801f, 4.68f, 16.031f, 4.08f, 16.411f, 3.59f)
+                horizontalLineTo(16.421f)
+                curveTo(16.931f, 2.93f, 17.741f, 2.5f, 18.651f, 2.5f)
+                curveTo(20.231f, 2.5f, 21.501f, 3.77f, 21.501f, 5.35f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(8.2f, 5.35f)
+                curveTo(8.2f, 6.93f, 6.93f, 8.2f, 5.35f, 8.2f)
+                curveTo(4.68f, 8.2f, 4.08f, 7.97f, 3.59f, 7.59f)
+                curveTo(2.93f, 7.07f, 2.5f, 6.26f, 2.5f, 5.35f)
+                curveTo(2.5f, 3.77f, 3.77f, 2.5f, 5.35f, 2.5f)
+                curveTo(6.26f, 2.5f, 7.07f, 2.93f, 7.59f, 3.59f)
+                curveTo(7.97f, 4.08f, 8.2f, 4.68f, 8.2f, 5.35f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(21.501f, 18.65f)
+                curveTo(21.501f, 20.23f, 20.231f, 21.5f, 18.651f, 21.5f)
+                curveTo(17.741f, 21.5f, 16.931f, 21.07f, 16.421f, 20.41f)
+                horizontalLineTo(16.411f)
+                curveTo(16.031f, 19.93f, 15.801f, 19.32f, 15.801f, 18.65f)
+                curveTo(15.801f, 17.07f, 17.071f, 15.8f, 18.651f, 15.8f)
+                curveTo(19.321f, 15.8f, 19.921f, 16.03f, 20.411f, 16.41f)
+                verticalLineTo(16.42f)
+                curveTo(21.071f, 16.93f, 21.501f, 17.74f, 21.501f, 18.65f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(8.2f, 18.65f)
+                curveTo(8.2f, 19.32f, 7.97f, 19.92f, 7.59f, 20.41f)
+                curveTo(7.07f, 21.08f, 6.26f, 21.5f, 5.35f, 21.5f)
+                curveTo(3.77f, 21.5f, 2.5f, 20.23f, 2.5f, 18.65f)
+                curveTo(2.5f, 17.74f, 2.93f, 16.93f, 3.59f, 16.42f)
+                verticalLineTo(16.41f)
+                curveTo(4.07f, 16.03f, 4.68f, 15.8f, 5.35f, 15.8f)
+                curveTo(6.93f, 15.8f, 8.2f, 17.07f, 8.2f, 18.65f)
+                close()
+            }
+            path(
+                fillAlpha = 0.4f,
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeAlpha = 0.4f,
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(21.5f, 12f)
+                curveTo(21.5f, 13.6f, 21.11f, 15.09f, 20.41f, 16.41f)
+                curveTo(19.93f, 16.03f, 19.32f, 15.8f, 18.65f, 15.8f)
+                curveTo(17.07f, 15.8f, 15.8f, 17.07f, 15.8f, 18.65f)
+                curveTo(15.8f, 19.32f, 16.03f, 19.92f, 16.41f, 20.41f)
+                curveTo(15.09f, 21.11f, 13.6f, 21.5f, 12f, 21.5f)
+                curveTo(10.41f, 21.5f, 8.91f, 21.11f, 7.59f, 20.41f)
+                curveTo(7.97f, 19.93f, 8.2f, 19.32f, 8.2f, 18.65f)
+                curveTo(8.2f, 17.07f, 6.93f, 15.8f, 5.35f, 15.8f)
+                curveTo(4.68f, 15.8f, 4.08f, 16.03f, 3.59f, 16.41f)
+                curveTo(2.89f, 15.09f, 2.5f, 13.6f, 2.5f, 12f)
+                curveTo(2.5f, 10.41f, 2.89f, 8.91f, 3.59f, 7.59f)
+                curveTo(4.08f, 7.97f, 4.68f, 8.2f, 5.35f, 8.2f)
+                curveTo(6.93f, 8.2f, 8.2f, 6.93f, 8.2f, 5.35f)
+                curveTo(8.2f, 4.68f, 7.97f, 4.08f, 7.59f, 3.59f)
+                curveTo(8.91f, 2.89f, 10.41f, 2.5f, 12f, 2.5f)
+                curveTo(13.6f, 2.5f, 15.09f, 2.89f, 16.41f, 3.59f)
+                curveTo(16.03f, 4.07f, 15.8f, 4.68f, 15.8f, 5.35f)
+                curveTo(15.8f, 6.93f, 17.07f, 8.2f, 18.65f, 8.2f)
+                curveTo(19.32f, 8.2f, 19.92f, 7.97f, 20.41f, 7.59f)
+                curveTo(21.11f, 8.91f, 21.5f, 10.41f, 21.5f, 12f)
+                close()
+            }
+        }.build()
+
+        return _FormatCircle!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _FormatCircle: ImageVector? = null

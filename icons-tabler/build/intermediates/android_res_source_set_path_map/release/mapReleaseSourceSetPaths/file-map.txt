@@ -1,0 +1,10 @@
+com.muralivitt.cmp.icons.tabler.icons-tabler-pngs-0 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/generated/res/pngs/release
+com.muralivitt.cmp.icons.tabler.icons-tabler-updated_navigation_xml-1 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/generated/updated_navigation_xml/release
+com.muralivitt.cmp.icons.tabler.icons-tabler-mergeReleaseResources-2 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.muralivitt.cmp.icons.tabler.icons-tabler-mergeReleaseResources-3 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.muralivitt.cmp.icons.tabler.icons-tabler-release-4 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/intermediates/merged_res/release/mergeReleaseResources
+com.muralivitt.cmp.icons.tabler.icons-tabler-release-5 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/build/intermediates/packaged_res/release/packageReleaseResources
+com.muralivitt.cmp.icons.tabler.icons-tabler-androidMain-6 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/src/androidMain/res
+com.muralivitt.cmp.icons.tabler.icons-tabler-androidRelease-7 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/src/androidRelease/res
+com.muralivitt.cmp.icons.tabler.icons-tabler-main-8 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/src/main/res
+com.muralivitt.cmp.icons.tabler.icons-tabler-release-9 /Users/muralim/Workspace/Projects/cmp-icons/icons-tabler/src/release/res

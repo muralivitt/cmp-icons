@@ -1,0 +1,110 @@
+package com.muralivitt.cmp.icons.vuesax.linear
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import kotlin.Suppress
+
+val VuesaxIconsLinear.Barcode: ImageVector
+    get() {
+        if (_Barcode != null) {
+            return _Barcode!!
+        }
+        _Barcode = ImageVector.Builder(
+            name = "Barcode",
+            defaultWidth = 24.dp,
+            defaultHeight = 24.dp,
+            viewportWidth = 24f,
+            viewportHeight = 24f
+        ).apply {
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(17f, 20.5f)
+                horizontalLineTo(7f)
+                curveTo(4f, 20.5f, 2f, 19f, 2f, 15.5f)
+                verticalLineTo(8.5f)
+                curveTo(2f, 5f, 4f, 3.5f, 7f, 3.5f)
+                horizontalLineTo(17f)
+                curveTo(20f, 3.5f, 22f, 5f, 22f, 8.5f)
+                verticalLineTo(15.5f)
+                curveTo(22f, 19f, 20f, 20.5f, 17f, 20.5f)
+                close()
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(6f, 8f)
+                verticalLineTo(16f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(9f, 8f)
+                verticalLineTo(12f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(9f, 15f)
+                verticalLineTo(16f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(15f, 8f)
+                verticalLineTo(9f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(12f, 8f)
+                verticalLineTo(16f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(15f, 12f)
+                verticalLineTo(16f)
+            }
+            path(
+                stroke = SolidColor(Color(0xFF292D32)),
+                strokeLineWidth = 1.5f,
+                strokeLineCap = StrokeCap.Round,
+                strokeLineJoin = StrokeJoin.Round
+            ) {
+                moveTo(18f, 8f)
+                verticalLineTo(16f)
+            }
+        }.build()
+
+        return _Barcode!!
+    }
+
+@Suppress("ObjectPropertyName")
+private var _Barcode: ImageVector? = null

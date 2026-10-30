@@ -1,0 +1,12 @@
+{
+  "rootPublicationCoordinates": {
+    "group": "io.github.muralivitt",
+    "artifactId": "cmp-icons-tabler",
+    "version": "1.0.0"
+  },
+  "targetPublicationCoordinates": {
+    "group": "io.github.muralivitt",
+    "artifactId": "cmp-icons-tabler-iosarm64",
+    "version": "1.0.0"
+  }
+}
